@@ -1,14 +1,22 @@
-A very high energy gamma-ray survey of unidentified EGRET sources
-=================================================================
+## A very high energy gamma-ray survey of unidentified EGRET sources ##
 
 ### _Stephen Fegan, 2004_ ###
 
-A Dissertation Submitted to the Faculty of the DEPARTMENT OF PHYSICS
-In Partial Fulfilment of the Requirements For the Degree of
-DOCTOR OF PHILOSOPHY
-In the Graduate College
-THE UNIVERSITY OF ARIZONA,
-2004
+---
+
+    A Dissertation Submitted to the Faculty of the
+
+    DEPARTMENT OF PHYSICS
+
+    In Partial Fulfilment of the Requirements For the Degree of
+
+    DOCTOR OF PHILOSOPHY
+
+    In the Graduate College
+
+    THE UNIVERSITY OF ARIZONA,
+
+    2004
 
 ---
 

@@ -2,21 +2,19 @@
 
 ### _Stephen Fegan, 2004_ ###
 
----
+A Dissertation Submitted to the Faculty of the
 
-    A Dissertation Submitted to the Faculty of the
+DEPARTMENT OF PHYSICS
 
-    DEPARTMENT OF PHYSICS
+In Partial Fulfilment of the Requirements For the Degree of
 
-    In Partial Fulfilment of the Requirements For the Degree of
+DOCTOR OF PHILOSOPHY
 
-    DOCTOR OF PHILOSOPHY
+In the Graduate College
 
-    In the Graduate College
+THE UNIVERSITY OF ARIZONA,
 
-    THE UNIVERSITY OF ARIZONA,
-
-    2004
+2004
 
 ---
 

@@ -1,0 +1,74 @@
+\documentclass[12pt,letterpaper,natbib]{thesis}
+%\usepackage{times}
+\usepackage[pdftex]{graphicx}
+\usepackage{color}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\bigskipamount}
+
+%\newfont{\myfont}{txmia at 12pt}
+%\newcommand{\Gray}{{\myfont\symbol{13}}-ray\ }
+%\newcommand{\Grays}{{\myfont\symbol{13}}-rays\ }
+%\newcommand{\Grayc}{{\myfont\symbol{13}}-ray}
+\newcommand{\Gray}{$\gamma$-ray\ }
+\newcommand{\Grays}{$\gamma$-rays\ }
+\newcommand{\Grayc}{$\gamma$-ray}
+
+\newcommand{\Cerenkov}{\v Cerenkov\ }
+\newcommand{\On}{\textsc{On}}
+\newcommand{\Off}{\textsc{Off}}
+\newcommand{\Trk}{\textsc{Tracking}}
+
+\newcommand{\Mytitle}{A very high energy gamma-ray survey of unidentified EGRET sources}
+
+%\includeonly{app-jargon,app-ellipt,app-smoothing,app-liandma}
+%\includeonly{chap-technique}
+%\includeonly{app-jargon}
+
+\usepackage{aas_macros}
+
+\ifx\pdfoutput\undefined \newcount\pdfoutput \fi
+\ifcase\pdfoutput
+  \special{papersize=11in,8.5in}
+\else
+  \usepackage{hyperref}
+  \pdfpagewidth 8.5truein
+  \pdfpageheight 11truein
+  \pdfhorigin 1truein
+  \pdfvorigin 1truein
+  \hypersetup{
+%    pdfstartpage=47,
+    pdftitle={\Mytitle},
+    pdfsubject={VHE gamma-ray astronomy},
+    pdfkeywords={VHE astronomy, unidentified EGRET sources},
+    pdfauthor={\textcopyright\ Stephen Fegan},
+    pdfcreator={\LaTeX\ with package \flqq hyperref\frqq}
+  }
+  \pdfinfo{/CreationDate (D:20031117091625)}
+\fi
+\begin{document}
+\include{chap-title}
+\include{chap-introduction}
+\include{chap-sources}
+\include{chap-technique}
+\include{chap-analysis}
+\include{chap-observations}
+\include{chap-veritas}
+\include{chap-conclusions}
+\begin{appendix}
+\include{app-jargon}
+\include{app-ellipt}
+\include{app-smoothing}
+\include{app-liandma}
+\end{appendix}
+\newcommand{\app}{}
+\newcommand{\rmxaa}{}
+\newcommand{\nim}{}
+\newcommand{\nima}{}
+\newcommand{\pr}{}
+\newcommand{\baps}{}
+\newcommand{\al}{}
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
